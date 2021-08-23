@@ -5,7 +5,7 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 
 const CalendarView = () => {
   return (
-    <div className="px-5 pt-5">
+    <div className="px-5 pt-6">
       <Calendar
         plugins={[timeGridPlugin]}
         initialView="timeGridWeek"
