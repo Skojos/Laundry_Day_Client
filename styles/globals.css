@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link {
+    @apply cursor-pointer hover:underline;
+  }
+}
+
+@screen sm {
+  .fc-view-harness {
+  }
+
+  .fc {
+  }
+
+  .fc .fc-col-header-cell-cushion {
+    /* needs to be same precedence */
+    padding-top: 5px; /* an override! */
+    padding-bottom: 5px; /* an override! */
+  }
+
+  .fc-toolbar-title {
+    color: black;
+    font-size: px;
+  }
+
+  .fc-toolbar-chunk {
+    color: black;
+  }
+
+  .fc-button-group {
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .fc .fc-toolbar-title {
+    font-size: 20px;
+    padding: 7px;
+  }
+}
