@@ -11,6 +11,10 @@ export default function Home() {
         <title>Laundry Day</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header />
+
+      <h3>Völkommen</h3>
+      <button>Bokningsregler</button>
     </div>
   );
 }

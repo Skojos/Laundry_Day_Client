@@ -7,7 +7,7 @@ const Calendars = dynamic(() => import("./components/CalendarView.js"), {
   ssr: false,
 });
 
-export default function Home() {
+export default function Kalender() {
   return (
     <div>
       <div className="sticky top-0 z-50">
